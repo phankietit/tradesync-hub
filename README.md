@@ -1,12 +1,19 @@
 # TradeSync
 
-> Discretionary trading journal for traders who plan trades before entering, review execution after, and iterate on their edge. TradeSync turns raw trade logs into PnL, R-multiple, win rate, and emotional patterns so you trade with data, not feelings. Free plan supports 2 accounts. Multi-account isolation, 5 languages, EU region by default, GDPR-compliant.
+> Discretionary trading journal for traders who plan trades before entering, review execution after, and iterate on their edge. TradeSync turns raw trade logs into PnL, R-multiple, win rate, and emotional patterns so you trade with data, not feelings. Multi-account isolation, 5 languages, EU region by default, GDPR-compliant.
+
+[![Status](https://img.shields.io/badge/status-beta-blue)](https://tradesynchub.app/)
+[![Region](https://img.shields.io/badge/region-EU--Frankfurt-green)](https://tradesynchub.app/privacy)
+[![GDPR](https://img.shields.io/badge/GDPR--compliant-green)](https://tradesynchub.app/privacy)
+[![License](https://img.shields.io/badge/license-CC--BY--4.0-lightgrey)](LICENSE)
 
 **Open the app →** https://tradesynchub.app/
 
+---
+
 ## What is TradeSync?
 
-TradeSync is a web-based trading journal for forex, crypto, futures, and stock traders. It auto-calculates PnL, R-multiple, win rate, and emotion-driven performance from your trade logs. The free plan supports 2 trading accounts. The paid plan adds unlimited accounts, image uploads, and PDF report export.
+TradeSync is a web-based trading journal for forex, crypto, futures, and stock traders. It auto-calculates PnL, R-multiple, win rate, and emotion-driven performance from your trade logs. Built around the loop: plan the trade, trade the plan, journal the outcome.
 
 ## Features
 
@@ -29,15 +36,6 @@ TradeSync is a web-based trading journal for forex, crypto, futures, and stock t
 - Every database table enforces row-level security tied to your account.
 - No advertising, remarketing, or social media tracking cookies.
 - User-controlled data export and deletion. See the privacy page for the full story.
-
-## Pricing
-
-| Plan | Price | Includes |
-|------|-------|----------|
-| Free | $0 | 2 accounts, unlimited trades, daily plans, setups, CSV export, public share links |
-| Paid | (see site) | Unlimited accounts, image uploads, PDF report export |
-
-Pricing details are kept up to date at https://tradesynchub.app/.
 
 ## Why TradeSync
 
@@ -67,4 +65,4 @@ Documentation in this repository is licensed under [CC-BY-4.0](https://creativec
 ## Contact
 
 - Web: https://tradesynchub.app/
-- Email: support@tradesynchub.app
+- Email: tradesynchub.app@gmail.com
