@@ -29,7 +29,7 @@
 
 </div>
 
-| | TradeSync | Typical journal |
+| Dimension | TradeSync | Typical journal |
 |---|:---:|:---:|
 | Storage in EU region | yes | rarely |
 | Ad networks | none | usually |
