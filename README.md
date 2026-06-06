@@ -25,24 +25,6 @@
 
 <div align="center">
 
-### Why traders choose TradeSync
-
-</div>
-
-| Dimension | TradeSync | Typical journal |
-|---|:---:|:---:|
-| Storage in EU region | yes | rarely |
-| Ad networks | none | usually |
-| Per-row isolation on every table | default | optional |
-| Languages | **5** | 1 to 2 |
-| Share a setup without leaking your account | yes | rare |
-| Minute-precision market sessions | yes | no |
-| Account deletion SLA | **30 days** | unclear |
-
-<br />
-
-<div align="center">
-
 ### What you get
 
 </div>
