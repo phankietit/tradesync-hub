@@ -1,0 +1,52 @@
+name: Feature request
+description: Suggest an improvement or new capability
+title: "[feature] "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. We track every request and update this thread when something ships.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: One sentence — what would you like?
+      placeholder: "Export journal to CSV with custom date range"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem it solves
+      description: What pain point does this address?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How would you like it to work?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered (optional)
+    validations:
+      required: false
+
+  - type: dropdown
+    id: willing_to_test
+    attributes:
+      label: Would you test a beta version?
+      options:
+        - "Yes"
+        - "Maybe"
+        - "No"
+    validations:
+      required: true

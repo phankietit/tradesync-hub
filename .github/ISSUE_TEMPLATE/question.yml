@@ -1,0 +1,36 @@
+name: Question / Help
+description: Ask how something works or get help using TradeSync
+title: "[question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask anything about using TradeSync. We reply in this thread.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Your question
+      placeholder: "How do I switch between trading accounts?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: tried
+    attributes:
+      label: What you tried (optional)
+      description: Docs you read, steps you already took
+    validations:
+      required: false
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Where are you using TradeSync?
+      options:
+        - Web app (desktop browser)
+        - Web app (mobile browser)
+        - Not sure
+    validations:
+      required: true
