@@ -1,0 +1,55 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Trade review loop</title>
+  <desc id="desc">Four calm cards showing the TradeSync workflow: Plan, Trade, Journal, Review.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111f"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="86" y1="86" x2="1110" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="soft" x="0" y="0" width="1200" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="318" rx="30" fill="url(#bg)" stroke="#1f3348"/>
+  <path d="M96 85H1104M96 160H1104M96 235H1104" stroke="#94a3b8" stroke-opacity="0.055"/>
+  <path d="M138 160H1062" stroke="url(#accent)" stroke-width="2" stroke-dasharray="7 13" opacity="0.42"/>
+
+  <g filter="url(#soft)" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+    <g>
+      <rect x="80" y="82" width="230" height="156" rx="24" fill="#0f172a" stroke="#24364d"/>
+      <circle cx="126" cy="128" r="18" fill="#12323f" stroke="#22d3ee"/>
+      <path d="M117 128H135M126 119V137" stroke="#67e8f9" stroke-width="2.4" stroke-linecap="round"/>
+      <text x="112" y="176" fill="#f8fafc" font-size="24" font-weight="760">Plan</text>
+      <text x="112" y="202" fill="#9fb2c7" font-size="14">Bias and session context</text>
+    </g>
+
+    <g>
+      <rect x="350" y="82" width="230" height="156" rx="24" fill="#0f172a" stroke="#24364d"/>
+      <circle cx="396" cy="128" r="18" fill="#11251f" stroke="#34d399"/>
+      <path d="M388 130L395 137L408 120" stroke="#86efac" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="382" y="176" fill="#f8fafc" font-size="24" font-weight="760">Trade</text>
+      <text x="382" y="202" fill="#9fb2c7" font-size="14">Execution and risk notes</text>
+    </g>
+
+    <g>
+      <rect x="620" y="82" width="230" height="156" rx="24" fill="#0f172a" stroke="#24364d"/>
+      <circle cx="666" cy="128" r="18" fill="#172033" stroke="#60a5fa"/>
+      <path d="M657 123H675M657 132H671" stroke="#bfdbfe" stroke-width="2.4" stroke-linecap="round"/>
+      <text x="652" y="176" fill="#f8fafc" font-size="24" font-weight="760">Journal</text>
+      <text x="652" y="202" fill="#9fb2c7" font-size="14">Outcome, emotion, setup</text>
+    </g>
+
+    <g>
+      <rect x="890" y="82" width="230" height="156" rx="24" fill="#0f172a" stroke="#24364d"/>
+      <circle cx="936" cy="128" r="18" fill="#11251f" stroke="#34d399"/>
+      <path d="M927 135C935 125 941 132 949 117" stroke="#86efac" stroke-width="2.6" stroke-linecap="round"/>
+      <text x="922" y="176" fill="#f8fafc" font-size="24" font-weight="760">Review</text>
+      <text x="922" y="202" fill="#9fb2c7" font-size="14">Patterns and reports</text>
+    </g>
+  </g>
+</svg>

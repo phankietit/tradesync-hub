@@ -1,0 +1,72 @@
+<svg width="1200" height="460" viewBox="0 0 1200 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TradeSync app surfaces</title>
+  <desc id="desc">A composed preview of dashboard cards, a journal table, reports, and calendar context.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#eef6f4"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="162" y1="86" x2="980" y2="388" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="460" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="458" rx="28" fill="url(#bg)" stroke="#d9e3e7"/>
+  <circle cx="151" cy="80" r="78" fill="#22d3ee" fill-opacity="0.13"/>
+  <circle cx="1034" cy="386" r="120" fill="#34d399" fill-opacity="0.14"/>
+
+  <g filter="url(#shadow)" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+    <rect x="72" y="64" width="1056" height="332" rx="28" fill="#ffffff" stroke="#d7e2e7"/>
+    <rect x="96" y="88" width="194" height="284" rx="22" fill="#06111f"/>
+    <rect x="122" y="118" width="96" height="12" rx="6" fill="#e2e8f0" opacity="0.78"/>
+    <rect x="122" y="166" width="126" height="12" rx="6" fill="#334155"/>
+    <rect x="122" y="202" width="86" height="12" rx="6" fill="#1f6b58"/>
+    <rect x="122" y="238" width="112" height="12" rx="6" fill="#334155"/>
+    <rect x="122" y="310" width="132" height="12" rx="6" fill="#334155"/>
+
+    <rect x="326" y="88" width="348" height="126" rx="22" fill="#0f172a"/>
+    <text x="354" y="126" fill="#94a3b8" font-size="12" font-weight="700">DASHBOARD</text>
+    <text x="354" y="160" fill="#f8fafc" font-size="30" font-weight="760">Daily review</text>
+    <rect x="528" y="139" width="88" height="12" rx="6" fill="#223247"/>
+    <rect x="528" y="164" width="112" height="12" rx="6" fill="#1f6b58"/>
+    <path d="M520 190C544 177 566 184 588 168C610 151 626 160 646 140" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="700" y="88" width="198" height="126" rx="22" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="724" y="126" fill="#64748b" font-size="12" font-weight="700">REPORT</text>
+    <rect x="724" y="154" width="32" height="36" rx="8" fill="#22d3ee" fill-opacity="0.24"/>
+    <rect x="766" y="134" width="32" height="56" rx="8" fill="#34d399" fill-opacity="0.3"/>
+    <rect x="808" y="166" width="32" height="24" rx="8" fill="#22d3ee" fill-opacity="0.24"/>
+    <rect x="850" y="118" width="32" height="72" rx="8" fill="#34d399" fill-opacity="0.3"/>
+
+    <rect x="924" y="88" width="168" height="126" rx="22" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="948" y="126" fill="#64748b" font-size="12" font-weight="700">CALENDAR</text>
+    <g fill="#dbeafe">
+      <rect x="948" y="148" width="22" height="22" rx="7"/>
+      <rect x="980" y="148" width="22" height="22" rx="7"/>
+      <rect x="1012" y="148" width="22" height="22" rx="7"/>
+      <rect x="1044" y="148" width="22" height="22" rx="7"/>
+      <rect x="948" y="180" width="22" height="22" rx="7"/>
+      <rect x="980" y="180" width="22" height="22" rx="7"/>
+      <rect x="1012" y="180" width="22" height="22" rx="7"/>
+      <rect x="1044" y="180" width="22" height="22" rx="7"/>
+    </g>
+    <rect x="980" y="180" width="22" height="22" rx="7" fill="#34d399" fill-opacity="0.48"/>
+    <rect x="1044" y="148" width="22" height="22" rx="7" fill="#22d3ee" fill-opacity="0.42"/>
+
+    <rect x="326" y="240" width="766" height="112" rx="22" fill="#f8fafc" stroke="#e2e8f0"/>
+    <text x="354" y="276" fill="#64748b" font-size="12" font-weight="700">JOURNAL</text>
+    <rect x="354" y="298" width="120" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="506" y="298" width="86" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="624" y="298" width="140" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="796" y="298" width="92" height="12" rx="6" fill="#cbd5e1"/>
+    <rect x="354" y="328" width="700" height="1" fill="#e2e8f0"/>
+    <rect x="354" y="342" width="150" height="10" rx="5" fill="#1f6b58"/>
+    <rect x="536" y="342" width="86" height="10" rx="5" fill="#dbeafe"/>
+    <rect x="654" y="342" width="186" height="10" rx="5" fill="#dbeafe"/>
+    <rect x="872" y="342" width="104" height="10" rx="5" fill="#dbeafe"/>
+  </g>
+</svg>

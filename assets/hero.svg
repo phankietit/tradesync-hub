@@ -1,96 +1,93 @@
-<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">TradeSync product preview</title>
-  <desc id="desc">A dark, refined product preview showing the TradeSync mark, journal cards, and analytics panels.</desc>
+  <desc id="desc">A refined dark banner with the TradeSync mark and a compact trading journal dashboard preview.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="620" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#050814"/>
-      <stop offset="0.48" stop-color="#08101f"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#040817"/>
+      <stop offset="0.48" stop-color="#07111f"/>
       <stop offset="1" stop-color="#02040b"/>
     </linearGradient>
-    <radialGradient id="auraA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(232 139) rotate(31) scale(412 254)">
-      <stop stop-color="#22d3ee" stop-opacity="0.42"/>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 92) rotate(34) scale(420 245)">
+      <stop stop-color="#22d3ee" stop-opacity="0.34"/>
       <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="auraB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(973 430) rotate(150) scale(430 280)">
-      <stop stop-color="#34d399" stop-opacity="0.32"/>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(920 410) rotate(154) scale(420 250)">
+      <stop stop-color="#34d399" stop-opacity="0.26"/>
       <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="brand" x1="359" y1="138" x2="515" y2="299" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#1dd6ff"/>
-      <stop offset="0.52" stop-color="#18e5b3"/>
-      <stop offset="1" stop-color="#45f07b"/>
+    <linearGradient id="markTop" x1="175" y1="164" x2="307" y2="288" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="0.52" stop-color="#1ee6b7"/>
+      <stop offset="1" stop-color="#38ef7d"/>
     </linearGradient>
-    <linearGradient id="brandSoft" x1="391" y1="318" x2="527" y2="442" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#20d8f4"/>
-      <stop offset="1" stop-color="#29e887"/>
+    <linearGradient id="markBottom" x1="174" y1="274" x2="307" y2="363" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#21d4f3"/>
+      <stop offset="1" stop-color="#2de887"/>
     </linearGradient>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#111827" stop-opacity="0.92"/>
-      <stop offset="1" stop-color="#07101d" stop-opacity="0.94"/>
+    <linearGradient id="line" x1="520" y1="328" x2="940" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
     </linearGradient>
-    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#67e8f9" stop-opacity="0.42"/>
-      <stop offset="0.45" stop-color="#334155" stop-opacity="0.48"/>
-      <stop offset="1" stop-color="#34d399" stop-opacity="0.34"/>
-    </linearGradient>
-    <filter id="shadow" x="-40" y="-40" width="1280" height="700" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="24" stdDeviation="34" flood-color="#000000" flood-opacity="0.48"/>
+    <filter id="shadow" x="0" y="0" width="1200" height="500" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="26" stdDeviation="30" flood-color="#000" flood-opacity="0.46"/>
     </filter>
-    <filter id="softShadow" x="-40" y="-40" width="420" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000000" flood-opacity="0.35"/>
-    </filter>
-    <clipPath id="roundCanvas"><rect width="1200" height="620" rx="34"/></clipPath>
+    <clipPath id="clip"><rect width="1200" height="500" rx="34"/></clipPath>
   </defs>
 
-  <g clip-path="url(#roundCanvas)">
-    <rect width="1200" height="620" fill="url(#bg)"/>
-    <rect width="1200" height="620" fill="url(#auraA)"/>
-    <rect width="1200" height="620" fill="url(#auraB)"/>
-    <path d="M0 424C155 370 297 386 432 435C575 487 724 526 868 469C997 418 1096 314 1200 333V620H0V424Z" fill="#0f172a" fill-opacity="0.32"/>
-    <path d="M97 101H1103M97 177H1103M97 253H1103M97 329H1103M97 405H1103M97 481H1103" stroke="#94a3b8" stroke-opacity="0.055"/>
-    <path d="M179 53V566M327 53V566M475 53V566M623 53V566M771 53V566M919 53V566M1067 53V566" stroke="#94a3b8" stroke-opacity="0.045"/>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="500" fill="url(#bg)"/>
+    <rect width="1200" height="500" fill="url(#glowA)"/>
+    <rect width="1200" height="500" fill="url(#glowB)"/>
+    <path d="M0 352C133 318 267 326 404 370C562 421 705 452 858 397C998 347 1102 282 1200 300V500H0V352Z" fill="#0f172a" fill-opacity="0.32"/>
+    <path d="M96 88H1104M96 172H1104M96 256H1104M96 340H1104M96 424H1104" stroke="#94a3b8" stroke-opacity="0.055"/>
+    <path d="M190 56V444M360 56V444M530 56V444M700 56V444M870 56V444M1040 56V444" stroke="#94a3b8" stroke-opacity="0.045"/>
 
     <g filter="url(#shadow)">
-      <rect x="86" y="70" width="1028" height="480" rx="30" fill="#020617" fill-opacity="0.68" stroke="url(#stroke)"/>
-      <rect x="110" y="94" width="980" height="432" rx="22" fill="#030712" fill-opacity="0.58" stroke="#1f2937"/>
-    </g>
-
-    <g filter="url(#softShadow)">
-      <rect x="166" y="140" width="282" height="282" rx="46" fill="#08111f" stroke="#26364a"/>
-      <rect x="184" y="158" width="246" height="246" rx="34" fill="#020817" stroke="#1e293b"/>
-      <path d="M260 191L344 139C372 122 406 140 406 173V201C406 212 400 222 391 228L318 272C310 277 300 277 292 272L214 225C204 219 199 209 199 198V179C199 166 213 158 224 165L288 203C296 208 306 208 314 203L359 176C368 171 379 177 379 187V199C379 206 376 212 370 215L318 247C310 252 300 252 292 247L260 228C250 222 244 211 244 199C244 192 253 187 260 191Z" fill="url(#brand)"/>
-      <path d="M352 285L265 338C237 355 202 337 202 304V276C202 265 208 255 217 249L290 205C298 200 308 200 316 205L394 252C404 258 409 268 409 279V298C409 311 395 319 384 312L320 274C312 269 302 269 294 274L249 301C240 306 229 300 229 290V278C229 271 232 265 238 262L290 230C298 225 308 225 316 230L352 252C362 258 368 269 368 281C368 288 359 293 352 285Z" fill="url(#brandSoft)" fill-opacity="0.92"/>
-      <path d="M405 253C432 272 433 312 406 331L336 379C309 397 272 378 272 345V328L352 280C362 274 374 274 384 280L405 253Z" fill="#20d7a3" fill-opacity="0.22"/>
+      <rect x="84" y="70" width="1032" height="360" rx="34" fill="#020617" fill-opacity="0.74" stroke="#223247"/>
+      <rect x="110" y="96" width="980" height="308" rx="26" fill="#030712" fill-opacity="0.78" stroke="#132033"/>
     </g>
 
     <g>
-      <text x="502" y="165" fill="#e5f2ff" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="56" font-weight="760" letter-spacing="0">TradeSync</text>
-      <text x="504" y="206" fill="#9fb2c7" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="21" font-weight="460">Plan. Trade. Journal. Review.</text>
-      <rect x="505" y="236" width="168" height="42" rx="21" fill="#0f172a" stroke="#26364a"/>
-      <circle cx="529" cy="257" r="6" fill="#34d399"/>
-      <text x="545" y="264" fill="#dbeafe" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="15" font-weight="620">Live web app</text>
-      <rect x="687" y="236" width="156" height="42" rx="21" fill="#0f172a" stroke="#26364a"/>
-      <circle cx="711" cy="257" r="6" fill="#22d3ee"/>
-      <text x="727" y="264" fill="#dbeafe" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="15" font-weight="620">5 languages</text>
+      <rect x="146" y="138" width="220" height="220" rx="52" fill="#07111f" stroke="#2c4058"/>
+      <rect x="168" y="160" width="176" height="176" rx="40" fill="#020817" stroke="#17263a"/>
+      <path d="M218 194L266 164C286 152 312 165 312 189V203C312 212 307 220 300 224L258 250C253 253 245 253 240 250L191 221C184 217 180 209 180 201V192C180 181 192 175 201 180L238 202C244 205 251 205 257 202L282 187C289 183 298 188 298 197V201C298 206 295 211 290 214L258 233C253 236 245 236 240 233L218 220C209 215 204 207 204 197C204 192 212 190 218 194Z" fill="url(#markTop)"/>
+      <path d="M295 259L247 288C227 300 201 287 201 263V249C201 240 206 232 213 228L255 202C260 199 268 199 273 202L322 231C329 235 333 243 333 251V260C333 271 321 277 312 272L275 250C269 247 262 247 256 250L231 265C224 269 215 264 215 255V251C215 246 218 241 223 238L255 219C260 216 268 216 273 219L295 232C304 237 309 245 309 255C309 260 301 263 295 259Z" fill="url(#markBottom)"/>
+      <path d="M312 232C336 248 337 281 313 297L275 323C255 337 228 322 228 298V289L296 248C303 244 312 244 319 248L312 232Z" fill="#22c78a" fill-opacity="0.24"/>
     </g>
 
-    <g>
-      <rect x="504" y="318" width="250" height="142" rx="24" fill="url(#panel)" stroke="#1f3348"/>
-      <text x="528" y="354" fill="#8ea3b8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="13" font-weight="700">EQUITY CURVE</text>
-      <text x="528" y="386" fill="#34d399" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="30" font-weight="760">+122,374</text>
-      <path d="M528 426C551 410 569 429 590 412C612 394 627 399 648 377C672 352 693 379 728 344" stroke="#34d399" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M528 448H728" stroke="#334155" stroke-opacity="0.7"/>
+    <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+      <text x="146" y="386" fill="#f1f5f9" font-size="28" font-weight="760">TradeSync</text>
+      <text x="146" y="414" fill="#9fb2c7" font-size="15" font-weight="500">Plan. Journal. Review.</text>
     </g>
 
-    <g>
-      <rect x="780" y="318" width="250" height="142" rx="24" fill="url(#panel)" stroke="#1f3348"/>
-      <text x="804" y="354" fill="#8ea3b8" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="13" font-weight="700">JOURNAL FILTERS</text>
-      <rect x="804" y="376" width="84" height="28" rx="14" fill="#111c2e" stroke="#26364a"/>
-      <text x="824" y="395" fill="#dbeafe" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12">1M</text>
-      <rect x="898" y="376" width="108" height="28" rx="14" fill="#11251f" stroke="#256d53"/>
-      <text x="918" y="395" fill="#bbf7d0" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="12">Saved</text>
-      <rect x="804" y="420" width="202" height="14" rx="7" fill="#1e293b"/>
-      <rect x="804" y="444" width="154" height="14" rx="7" fill="#162336"/>
+    <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+      <rect x="430" y="132" width="610" height="250" rx="28" fill="#08111f" stroke="#24364d"/>
+      <rect x="460" y="162" width="128" height="54" rx="16" fill="#0f172a" stroke="#1f3348"/>
+      <text x="478" y="185" fill="#8fa4ba" font-size="10" font-weight="700">P&amp;L</text>
+      <text x="478" y="207" fill="#34d399" font-size="20" font-weight="760">+122K</text>
+
+      <rect x="606" y="162" width="128" height="54" rx="16" fill="#0f172a" stroke="#1f3348"/>
+      <text x="624" y="185" fill="#8fa4ba" font-size="10" font-weight="700">WIN RATE</text>
+      <text x="624" y="207" fill="#f8fafc" font-size="20" font-weight="760">53.3%</text>
+
+      <rect x="752" y="162" width="128" height="54" rx="16" fill="#0f172a" stroke="#1f3348"/>
+      <text x="770" y="185" fill="#8fa4ba" font-size="10" font-weight="700">TRADES</text>
+      <text x="770" y="207" fill="#f8fafc" font-size="20" font-weight="760">1,000</text>
+
+      <rect x="898" y="162" width="112" height="54" rx="16" fill="#0f172a" stroke="#1f3348"/>
+      <text x="916" y="185" fill="#8fa4ba" font-size="10" font-weight="700">RISK</text>
+      <text x="916" y="207" fill="#f8fafc" font-size="20" font-weight="760">1.2R</text>
+
+      <rect x="460" y="246" width="345" height="96" rx="18" fill="#0f172a" stroke="#1f3348"/>
+      <text x="482" y="276" fill="#8fa4ba" font-size="11" font-weight="700">EQUITY CURVE</text>
+      <path d="M482 318C520 300 542 315 576 292C606 272 628 286 660 259C694 231 720 267 780 234" stroke="url(#line)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M482 330H782" stroke="#334155" stroke-opacity="0.75"/>
+
+      <rect x="825" y="246" width="185" height="96" rx="18" fill="#0f172a" stroke="#1f3348"/>
+      <text x="847" y="276" fill="#8fa4ba" font-size="11" font-weight="700">JOURNAL</text>
+      <rect x="847" y="294" width="122" height="9" rx="4.5" fill="#203046"/>
+      <rect x="847" y="313" width="95" height="9" rx="4.5" fill="#1f6b58"/>
+      <rect x="847" y="332" width="138" height="9" rx="4.5" fill="#203046"/>
     </g>
   </g>
 </svg>

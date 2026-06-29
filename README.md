@@ -28,7 +28,19 @@ Plan the trade, trade the plan, journal the outcome.
 
 ---
 
+<div align="center">
+  <img src="assets/review-loop.svg" alt="Plan, trade, journal, and review workflow" width="900" />
+</div>
+
+---
+
 ## What TradeSync helps you do
+
+<div align="center">
+  <img src="assets/app-mosaic.svg" alt="TradeSync dashboard, journal, reports, and calendar preview" width="900" />
+</div>
+
+<br />
 
 <table>
   <tr>
