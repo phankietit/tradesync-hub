@@ -72,7 +72,6 @@ Plan the trade, trade the plan, journal the outcome.
 
 ## Privacy by default
 
-- Data is stored in the EU region.
 - Account data is isolated per user.
 - No advertising or remarketing cookies.
 - Users can export and delete their data from the app.
