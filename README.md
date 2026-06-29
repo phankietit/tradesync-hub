@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://tradesynchub.app/">
-  <img src="assets/hero.svg" alt="TradeSync product preview" width="960" />
+  <img src="assets/hero-clean.svg" alt="TradeSync product preview" width="960" />
 </a>
 
 <br />
