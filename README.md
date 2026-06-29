@@ -1,8 +1,10 @@
 <div align="center">
 
 <a href="https://tradesynchub.app/">
-  <img src="https://tradesynchub.app/logo.png" alt="TradeSync logo" width="104" />
+  <img src="assets/hero.svg" alt="TradeSync product preview" width="960" />
 </a>
+
+<br />
 
 # TradeSync
 
@@ -13,20 +15,13 @@ Plan the trade, trade the plan, journal the outcome.
 <br />
 
 <a href="https://tradesynchub.app/">
-  <img src="https://img.shields.io/badge/Open_web_app-111827?style=for-the-badge" alt="Open TradeSync" height="36" />
+  <img src="https://img.shields.io/badge/Open_web_app-0f172a?style=for-the-badge" alt="Open TradeSync" height="34" />
 </a>
 <a href="https://github.com/phankietit/tradesync-hub/releases/latest">
-  <img src="https://img.shields.io/github/v/release/phankietit/tradesync-hub?style=for-the-badge&label=Latest" alt="Latest release" height="36" />
+  <img src="https://img.shields.io/github/v/release/phankietit/tradesync-hub?style=for-the-badge&label=Latest&color=14b8a6" alt="Latest release" height="34" />
 </a>
 <a href="LICENSE">
-  <img src="https://img.shields.io/badge/License-CC--BY--4.0-a3a3a3?style=for-the-badge" alt="License" height="36" />
-</a>
-
-<br />
-<br />
-
-<a href="https://tradesynchub.app/">
-  <img src="https://tradesynchub.app/og-default.png" alt="TradeSync product preview" width="820" />
+  <img src="https://img.shields.io/badge/License-CC--BY--4.0-64748b?style=for-the-badge" alt="License" height="34" />
 </a>
 
 </div>
@@ -35,21 +30,26 @@ Plan the trade, trade the plan, journal the outcome.
 
 ## What TradeSync helps you do
 
-| Journal every trade | Review performance |
-|---|---|
-| Log entries, exits, stop loss, take profit, fees, notes, setups, and emotions in one place. | Track equity, monthly P&L, win rate, profit factor, best symbols, and setup performance. |
-
-| Plan before the session | Share without exposing the account |
-|---|---|
-| Write daily bias, points of interest, and session context before taking a trade. | Share selected trades, reports, or daily performance cards through public links. |
-
-| Keep accounts separate | Work in your language |
-|---|---|
-| Organize personal, funded, and paper accounts without mixing their history. | Use TradeSync in English, Vietnamese, Japanese, Korean, or Chinese. |
+<table>
+  <tr>
+    <td width="50%"><strong>Journal every trade</strong><br />Log entries, exits, risk, notes, setups, and emotions in one place.</td>
+    <td width="50%"><strong>Review performance</strong><br />Track equity, monthly P&amp;L, win rate, best symbols, and setup performance.</td>
+  </tr>
+  <tr>
+    <td width="50%"><strong>Plan before the session</strong><br />Write daily bias, points of interest, and session context before taking a trade.</td>
+    <td width="50%"><strong>Share without exposing the account</strong><br />Turn selected trades, reports, or daily performance into public cards.</td>
+  </tr>
+  <tr>
+    <td width="50%"><strong>Keep accounts separate</strong><br />Organize personal, funded, and paper accounts without mixing their history.</td>
+    <td width="50%"><strong>Work in your language</strong><br />Use TradeSync in English, Vietnamese, Japanese, Korean, or Chinese.</td>
+  </tr>
+</table>
 
 ---
 
 ## Highlights
+
+> TradeSync is built around a simple loop: write the plan, take the trade, record the outcome, and review the pattern.
 
 - **Journal filters that stay readable.** Quickly narrow trades by symbol, side, status, setup, result, saved preset, or date range.
 - **Reports built for review sessions.** Scan equity, monthly P&L, setup performance, top symbols, and trade distribution from one reporting surface.
